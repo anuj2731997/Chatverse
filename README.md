@@ -22,7 +22,6 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 - Image/file uploads via Cloudinary
 - Emoji picker for message composition
 - Command menu (`cmdk`) for quick navigation/actions
-- Light/dark theme support
 - Toast notifications and responsive, resizable panel layouts
 
 ## Project Structure
