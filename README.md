@@ -17,12 +17,78 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 
 ## Features
 
-- Realtime, reactive messaging powered by Convex subscriptions
-- Secure authentication and session management via Clerk
-- Image/file uploads via Cloudinary
-- Emoji picker for message composition
-- Command menu (`cmdk`) for quick navigation/actions
-- Toast notifications and responsive, resizable panel layouts
+### 🔐 Authentication
+- Clerk Authentication
+- Google Sign-In
+- Secure session management
+- Automatic user synchronization with Convex
+
+### 💬 Messaging
+- Real-time messaging
+- Send text messages
+- Image sharing using Convex Storage
+- Emoji picker
+- Reply to messages
+- Edit messages
+- Delete messages
+- Message timestamps
+- Deleted message indicators
+- Edited message indicators
+
+### 👥 Conversations
+- One-to-one conversations
+- Group conversations
+- Create groups
+- Group member management
+- Group details page
+- Conversation sorting by latest message
+- Hide/Delete chat (only for current user)
+
+### ⚡ Real-time Features
+- Online / Offline presence
+- Last seen
+- Typing indicator
+- Multiple typing users
+- Read receipts
+- Delivered status
+- Unread message count
+- Automatic mark-as-read
+
+### 😀 Reactions
+- React to messages with emojis
+- Toggle reactions
+- Real-time reaction updates
+
+### 🖼 Image Sharing
+- Upload images
+- Image preview before sending
+- Image validation
+- Click image to view full size
+
+### 📱 User Experience
+- WhatsApp-inspired UI
+- Responsive design
+- Smooth scrolling
+- Jump to replied message
+- Conversation previews
+- Last message preview
+- Relative timestamps
+- Conversation search
+- Modern dropdown menus
+- Confirmation dialogs
+
+## 📸 Screenshots
+
+
+- Login
+- Conversation List
+- Chat Screen
+- Group Chat
+- Message Reactions
+- Reply UI
+- Typing Indicator
+- Read Receipts
+
 
 ## Project Structure
 
@@ -114,10 +180,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 | `npm run start` | Start the production server |
 | `npm run lint` | Run ESLint |
 
-## Contributing
+## 👨‍💻 Author
 
-Contributions are welcome! Please open an issue to discuss significant changes before submitting a pull request.
-
-## License
-
-No license has been specified for this repository yet. Contact the repository owner for usage terms.
+Built with ❤️ using Next.js, Convex, Clerk, and TypeScript.
