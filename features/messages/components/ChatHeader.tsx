@@ -148,13 +148,13 @@ export function ChatHeader({
 
       {!conversation?.isGroup && (
         <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button
+          <DropdownMenuTrigger >
+            {/* <Button
               variant="ghost"
               size="icon"
-            >
+            > */}
               <MoreVertical className="h-5 w-5" />
-            </Button>
+            {/* </Button> */}
           </DropdownMenuTrigger>
 
           <DropdownMenuContent align="end">

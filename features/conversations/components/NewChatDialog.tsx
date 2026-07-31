@@ -39,28 +39,12 @@ export function NewChatDialog({
   open ? { search: debounced } : "skip"
 );
 
-// const users = useQuery(
-//   api.users.searchUsers,
-//   open && debounced.trim().length >= 2
-//     ? { search: debounced }
-//     : "skip"
-// );
 
   const createConversation =
     useCreateConversation();
 
   const router = useRouter();
 
-  // async function handleClick(userId: Id<"users">) {
-  //   const conversationId =
-  //     await createConversation({
-  //       otherUserId: userId,
-  //     });
-
-  //   onOpenChange(false);
-
-  //   router.push(`/chat/${conversationId}`);
-  // }
 
   async function handleClick(userId: Id<"users">) {
   try {
