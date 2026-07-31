@@ -80,14 +80,17 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 ## 📸 Screenshots
 
 
-- Login
-- Conversation List
-- Chat Screen
-- Group Chat
-- Message Reactions
-- Reply UI
-- Typing Indicator
-- Read Receipts
+![Login](./public/login.png)
+
+![Chat Screen](./public/chat.png)
+
+![Group Chat](./public/group.png)
+
+![Reply UI](./public/reply.png)
+
+
+![Typing Indicator](./public/typing.png)
+
 
 
 ## Project Structure
