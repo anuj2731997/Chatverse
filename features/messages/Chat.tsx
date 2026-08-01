@@ -7,11 +7,12 @@ import { useState } from "react";
 import { api } from "@/convex/_generated/api";
 import { FunctionReturnType } from "convex/server";
 import {PresenceProvider} from "@/features/presence/PresenceProvider"
+import { Id } from "@/convex/_generated/dataModel";
 
 type Message = FunctionReturnType<typeof api.messages.list>[number];
 
 interface Props {
-  conversationId: string;
+  conversationId: Id<"conversations">;
 }
 
 
