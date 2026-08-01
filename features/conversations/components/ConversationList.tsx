@@ -3,7 +3,7 @@
 import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { ConversationItem } from "./ConversationItem";
-import {Skeleton} from "@/components/ui/skeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 
 
 import type { FunctionReturnType } from "convex/server";
@@ -17,7 +17,6 @@ export function ConversationList() {
   );
 
 
-  console.log("conversations", conversations);
   if (conversations === undefined) {
     return (
       <div className="p-4">

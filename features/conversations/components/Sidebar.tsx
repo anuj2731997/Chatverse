@@ -1,17 +1,3 @@
-// "use client";
-
-// import { SidebarHeader } from "./SidebarHeader";
-// import { ConversationList } from "./ConversationList";
-
-// export function Sidebar() {
-//   return (
-//     <aside className="flex h-full w-80 flex-col border-r">
-//       <SidebarHeader />
-//       <ConversationList />
-
-//     </aside>
-//   );
-// }
 
 "use client";
 
