@@ -40,7 +40,7 @@ export default function ChatWindow({
                             className="font-semibold"
                         >
 
-                            {msg.sender?.name}
+                            {msg.senderName}
 
                         </div>
 
