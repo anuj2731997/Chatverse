@@ -4,7 +4,7 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 
 ## 🔗 Links
 
-- **Live Demo:** [chatverse-five-vert.vercel.app](chatverse-five-vert.vercel.app)
+- **Live Demo:** [chatverse](https://chatverse-five-vert.vercel.app/)
 - **Repository:** [github.com/anuj2731997/Chatverse](https://github.com/anuj2731997/Chatverse)
 
 ## Tech Stack
