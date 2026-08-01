@@ -5,12 +5,17 @@ import { useState } from "react";
 import { useMutation } from "convex/react";
 
 import { api } from "@/convex/_generated/api";
+import {Id} from "@/convex/_generated/dataModel";
+
+interface Props {
+    conversationId: Id<"conversations">;
+}
 
 export default function MessageInput({
 
     conversationId
 
-}) {
+}: Props) {
 
     const [text, setText] = useState("");
 
