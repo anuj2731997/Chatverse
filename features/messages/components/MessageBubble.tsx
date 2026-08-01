@@ -2,7 +2,7 @@
 
 import { format } from "date-fns";
 import { FunctionReturnType } from "convex/server";
-// import Image from "next/image";
+import { Id } from "@/convex/_generated/dataModel";
 import { MessageActions } from "./MessageActions";
 import { api } from "@/convex/_generated/api";
 import { useCurrentUser } from "../hooks/useCurrentUser";
