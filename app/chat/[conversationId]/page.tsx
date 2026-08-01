@@ -1,8 +1,9 @@
 import { Chat } from "@/features/messages/Chat";
+import { Id } from "@/convex/_generated/dataModel";
 
 interface Props {
   params: Promise<{
-    conversationId: string;
+    conversationId: Id<"conversations">;
   }>;
 }
 
