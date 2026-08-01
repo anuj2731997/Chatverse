@@ -3,12 +3,17 @@
 import { useQuery } from "convex/react";
 
 import { api } from "@/convex/_generated/api";
+import {Id} from "@/convex/_generated/dataModel";
+
+interface Props {
+    conversationId: Id<"conversations">;
+}
 
 export default function ChatWindow({
 
     conversationId
 
-}) {
+}: Props) {
 
     const messages =
         useQuery(
