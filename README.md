@@ -59,10 +59,6 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 - Unread message count
 - Automatic mark-as-read
 
-### 😀 Reactions
-- React to messages with emojis
-- Toggle reactions
-- Real-time reaction updates
 
 ### 🖼 Image Sharing
 - Upload images
