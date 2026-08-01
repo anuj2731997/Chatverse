@@ -2,6 +2,11 @@
 
 Chatverse is a realtime chat application built with **Next.js**, **Convex**, and **Clerk**. It combines a reactive Convex backend for instant message delivery with Clerk-based authentication, Cloudinary-powered media uploads, and a modern shadcn/ui interface.
 
+## 🔗 Links
+
+- **Live Demo:** [chatverse-five-vert.vercel.app](chatverse-five-vert.vercel.app)
+- **Repository:** [github.com/anuj2731997/Chatverse](https://github.com/anuj2731997/Chatverse)
+
 ## Tech Stack
 
 | Layer | Technology |
