@@ -70,11 +70,9 @@ Chatverse is a realtime chat application built with **Next.js**, **Convex**, and
 - WhatsApp-inspired UI
 - Responsive design
 - Smooth scrolling
-- Jump to replied message
 - Conversation previews
 - Last message preview
 - Relative timestamps
-- Conversation search
 - Modern dropdown menus
 - Confirmation dialogs
 
